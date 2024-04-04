@@ -30,8 +30,8 @@ The main program resides in the `src/` directory -- `matrix_product.cpp` (and `m
 To run `matrix_product.cpp`:
 
 ```
-g++ src/matrix_product.cpp
-src/a.out test/matrix_A.txt test/matrix_B.txt
+g++ src/matrix_product.cpp -o src/matrix_product_exe 
+src/matrix_product_exe test/matrix_A.txt test/matrix_B.txt
 ```
 
 ## Testing
